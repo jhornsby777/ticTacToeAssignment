@@ -1,0 +1,64 @@
+.top {
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+    margin: 0px;
+}
+
+.middle {
+    border-right: 2px solid red;
+    margin: 0px;
+}
+
+.bottom {
+    border-top: 2px solid red;
+    margin: 0px;
+    border-right: 2px solid red;
+}
+
+.end {
+    border-right: none;
+}
+
+.table {
+    padding: 10px;
+    margin: 0px;
+    height: 300px;
+    width: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+}
+
+h2 {
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    color: red;
+    text-align: center;
+    font-size: 75px;
+    padding: 0px;
+    margin: 0px;
+    height: 80px;
+    width: auto;
+}
+
+.x:before{
+    content: 'x'
+}
+
+.o:before{
+    content: 'o'
+}
+
